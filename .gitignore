@@ -1,0 +1,57 @@
+### Java ###
+*.class
+*.log
+*.jar
+*.war
+*.nar
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+# JVM crash logs
+hs_err_pid*
+
+### Maven ###
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+.mvn/wrapper/maven-wrapper.jar
+
+### IntelliJ IDEA ###
+.idea/
+*.iml
+*.ipr
+*.iws
+out/
+!**/src/main/**/out/
+!**/src/test/**/out/
+
+### Logs and Temp ###
+logs/
+*.tmp
+*.temp
+*.swp
+
+### OS-specific ###
+.DS_Store
+Thumbs.db
+
+### Spring Boot Configuration ###
+# Ignore actual config with secrets
+src/main/resources/application.properties
+src/main/resources/application.yml
+
+# Allow template/example files for developers
+!src/main/resources/application-example.properties
+!src/main/resources/application-example.yml
+
+### Test reports ###
+surefire-reports/
+failsafe-reports/
